@@ -37,12 +37,21 @@ aside {
     padding: 20px;
 }
 
-section {
-    flex: 3;
-    background-color: #fff;
-    padding: 20px;
+#About{
+    display: flex;
+} 
+
+#Work{
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
 }
 
+#Contact{
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+}
 footer {
     padding: 20px;
     text-align: center;
