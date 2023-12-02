@@ -16,11 +16,11 @@ header {
 
 nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: maroon;
 }
 
 nav a {
-    color: #13293d;
+    color: #fff;
     padding: 14px 20px;
     text-decoration: underline;
     text-align: center;
@@ -33,7 +33,7 @@ main{
 
 aside {
     flex: 1;
-    background-color: white;
+    background-color: lightgray;
     padding: 20px;
 }
 
