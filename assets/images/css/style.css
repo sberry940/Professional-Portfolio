@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    background-color: #d8a47f;
+}
+
+nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+section {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+
+/* Profile Picture */
+.profile-picture {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 150;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+    /* puts sidebar below the body */
+    aside {
+        order: 2;
+    }
+    /* Change the header background */
+    header {
+        background: #772014;
+    }
+    /* change the navbar and foother background */
+    nav,
+    footer {
+        background-color: #bb8588;
+    }
+}
