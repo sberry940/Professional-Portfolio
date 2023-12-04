@@ -28,20 +28,22 @@ nav a {
 
 main{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 aside {
-    flex: 1;
     background-color: lightgray;
-    padding: 20px;
+    width: 100px;
 }
 
 .parentContainer {
-    padding-right: 45%;
+    /* padding-right: 45%; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    width: 100%;
+    justify-content: space-between;
 }
+
 footer {
     padding: 20px;
     text-align: center;
@@ -51,11 +53,7 @@ footer {
 
 /* Profile Picture */
 .profile-picture {
-    background-color: #fff;
-    width: 100%;
-    padding: 20px;
-    height: 150;
-    border: 1px solid black;
+    width: 420px;
 }
 
 @media screen and (max-width: 768px) {
